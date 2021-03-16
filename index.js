@@ -3,7 +3,7 @@ module.exports = {
         '@pinuts/eslint-config-pinuts-base'
     ],
     parserOptions: {
-        ecmaVersion: 10,
+        ecmaVersion: es2019,
     },
     env: {
         browser: true,
