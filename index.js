@@ -2,5 +2,8 @@ module.exports = {
     extends: [
         '@pinuts/eslint-config-pinuts-base'
     ],
-    ecmaVersion: 11,
+    parserOptions: {
+        ecmaVersion: 11,
+    },
+    ignorePatterns: ['**/*.attributes', '**/*.png'],
 };
