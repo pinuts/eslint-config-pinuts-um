@@ -3,11 +3,7 @@ module.exports = {
         '@pinuts/eslint-config-pinuts-base'
     ],
     parserOptions: {
-        ecmaVersion: es2019,
+        ecmaVersion: 11,
     },
-    env: {
-        browser: true,
-        es6: true,
-        jquery: true,
-    }
+    ignorePatterns: ['**/*.attributes', '**/*.png'],
 };
